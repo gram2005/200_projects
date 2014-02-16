@@ -1,9 +1,17 @@
-/**
- * Created with IntelliJ IDEA.
- * User: gram
- * Date: 14.2.16
- * Time: 12.59
- * To change this template use File | Settings | File Templates.
- */
 public class ReverseString {
+
+    private String inputString;
+
+    public ReverseString(String inputString) {
+        this.inputString = inputString;
+    }
+
+    /* Returns reverse of input string */
+    public String reverse() {
+        String outputString;
+
+        outputString = new StringBuilder(inputString).reverse().toString();
+
+        return outputString;
+    }
 }
