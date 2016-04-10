@@ -7,3 +7,9 @@ function reverseString(str) {
 
 	return result;
 }
+
+function reverseString2(str) {
+
+	return str.split("").reverse().join("");
+
+}
